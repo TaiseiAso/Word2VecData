@@ -6,6 +6,7 @@
 ##################################################
 
 # 必要なモジュールのインポート
+import os
 from gensim.models import word2vec
 
 # 学習データを1文ずつ読み込む
@@ -21,6 +22,7 @@ model = word2vec.Word2Vec(
     iter=10         # 学習エポック回数
 )
 
+# modelフォルダがなければ作成する
 if not os.path.isdir("model"):
     os.mkdir("model")
 
