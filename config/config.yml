@@ -1,0 +1,13 @@
+filename:
+    corpus_file : corpus
+    model_file  : word2vec
+
+token:
+    sos : <SOS>
+
+train:
+    sg          : 1
+    size        : 256
+    min_count   : 5
+    window      : 5
+    iter        : 10
