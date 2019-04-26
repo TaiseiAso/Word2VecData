@@ -9,6 +9,7 @@ __date__ = "25 Apr 2019"
 # 必要なモジュールのインポート
 import os
 from gensim.models import word2vec
+import yaml
 
 
 def train(config):

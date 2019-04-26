@@ -7,7 +7,9 @@ __date__ = "25 Apr 2019"
 
 
 # 必要なモジュールのインポート
-import glob, os
+import glob
+import os
+import yaml
 
 
 def corpus(config):

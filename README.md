@@ -6,6 +6,7 @@
 ## 要件
 - python3
 - gensim
+- yaml
 
 ## 使い方
 1. Word2Vecの学習に用いるファイルをすべて "data/" に保存する。
