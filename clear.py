@@ -21,5 +21,15 @@ def clear(folders):
                 os.remove(os.path.join(root, name))
 
 
+def delete(folders):
+    """
+    指定したフォルダをすべて削除する
+    @param folders 削除するフォルダのリスト
+    """
+    for folder in folders:
+        os.system("rm -rf " + folder)
+
+
 if __name__ == '__main__':
-    clear(["data", "corpus", "model"])
+    clear(["data"])
+    delete(["corpus", "model"])
