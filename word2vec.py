@@ -58,7 +58,7 @@ def train(config):
 
 if __name__ == '__main__':
     # 設定ファイルを読み込む
-    config = yaml.load(stream=open("config/config.yml", 'rt'), Loader=yaml.SafeLoader)
+    config = yaml.load(stream=open("config/config.yml", 'rt', encoding='utf-8'), Loader=yaml.SafeLoader)
 
     # word2vecを学習
     train(config)

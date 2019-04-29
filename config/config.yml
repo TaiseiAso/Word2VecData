@@ -1,9 +1,9 @@
 filename:
-    corpus_file : corpus
-    model_file  : word2vec
+    corpus_file : "corpus"
+    model_file  : "word2vec"
 
 token:
-    sos : <SOS>
+    sos : "<SOS>"
 
 train:
     sg          : 1
